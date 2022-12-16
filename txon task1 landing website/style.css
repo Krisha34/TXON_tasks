@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  /*  background-image: url(C:\Users\krish\Desktop\krisha assignments\landing website\logo.jfif);
+*/
+  display: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bgi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin:0;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  padding: 35px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+
+}
+
+.nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: aqua;
+}
+
+
+.img {
+  width: 70px;
+  background-color: antiquewhite;
+  border-radius: 100%;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  text-align: center;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.625rem;
+  font-weight: 200;
+}
+
+h3 {
+  margin: 10px auto 0 auto;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-weight: 100;
+
+}
+
+.a {
+  color: blue;
+  font-family: 'Italianno', cursive;
+  font-size: 3.25rem;
+  margin-top: 0px ;
+  margin-bottom: 0px;
+padding: 50px;
+
+
+}
+
+.sing {
+  width: 350px;
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+}
+
+.dan {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+/*.row{
+ m display: flex;
+width: 100%;
+  align-items: center;
+}
+.col{
+  width: 80%;
+  justify-content: space-between;
+}
+.sing{
+width: 100%;
+height: 200px;
+float: left;
+}
+
+.dan{
+  width: 100%;
+  height: 200px;
+  float:right;
+}*/
+.row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+  color: rgb(28, 173, 236);
+  font-family: 'Cookie', cursive;
+  font-size: x-large;
+}
+
+.col {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+
+  color: rgb(249, 8, 72);
+  font-family: 'Cookie', cursive;
+  font-size: x-large;
+}
+
+h2 {
+  color: rgb(14, 14, 131);
+}
+body{
+  background: pink;
+ 
+}
+
+.bottom-container{
+
+text-align: center;
+  background-color: thistle;
+  padding-top: 30px;
+  padding-bottom: 30px;
+    margin: auto;
+}
+hr{
+
+  border: dotted grey;
+  width: 4%;
+  border-bottom: none;
+  margin: 90px auto;
+  }
+.footer-link {
+    color: #18517cd5;
+    margin: 5px 5px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #E4F9F5;
+}
+.end{
+margin: 20px auto;
+color: rgb(246, 6, 118);
+}
+.p{text-align: center;
+color: rgb(16, 23, 4);
+font-size: x-large;
+width: 50%;
+font-family: 'Rubik Gemstones', cursive;
+margin: 70px auto;}
+
