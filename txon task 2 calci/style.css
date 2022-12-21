@@ -1,0 +1,48 @@
+.cont {
+    padding: 23px;
+    border: 2px solid rgb(11, 168, 152);
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+button {
+
+    background-color: rgb(66, 82, 222);
+    border-radius: 3px;
+    border: 0ch;
+    height: 70px;
+    width: 70px;
+    font-size: 18px;
+  
+color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {font-size: 2rem;
+    text-align: center;
+    color: rgb(216, 233, 193);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    margin: auto;
+    margin-top: 10px;
+}
+
+input {
+    text-align: right;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+button:hover {
+    color: rgb(145, 46, 175);
+    background-color: rgb(161, 237, 142);
+}
+body{
+    background-color:darksalmon;
+}
