@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(to.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    padding: 30px 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#form {
+    display: flex;
+}
+
+#submit {
+    color: aliceblue;
+    background-color: var(--darker);
+    border-radius: 15%;
+    border-color: beige;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+#submit:hover {
+    color: rgb(3, 252, 136);
+}
+
+button {
+    color: rgb(32, 4, 245);
+    background-color: var(--darker);
+    border-radius: 15%;
+    border-color:rgb(239, 36, 70);
+    font-size: 15px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.tasklist {
+    padding: 30px 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    flex: 1 1 0%;
+}
+
+h2 {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+padding: 5px;
+border-radius: 1rem;
+margin-bottom: 5px;
+}
+
+.task2inp {
+
+    background-color: var(--dark);
+    padding: 5px 120px;
+    color: wheat;
+
+    border-color: beige;
+    border-radius: 10%;
+    font-size: 15px;
+
+}
+
+button:hover {
+    color: rgb(50, 220, 242);
+}
+::placeholder{
+color: powderblue;
+}
+#tasks .task .content {
+    color: rgb(8, 20, 184);
+    flex: 1 1 0%;
+}
+
+#tasks .task .content .text:not(:read-only){
+    color: rgb(36, 17, 199);
+    flex: 1 1 0%;
+}
+#tasks .task .actions
+{
+    display: flex;
+margin: 0 -0.5rem;
+}
+.task .actions button{
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+.taskinp {
+    flex: 1 1 0%;
+    background-color: var(--dark);
+    padding: 5px 10px;
+    color: rgb(242, 242, 228);
+    margin-right: 10px;
+    border-color: beige;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.inpt {
+    flex: 1 1 0%;
+    background-color: var(--dark);
+    padding: 5px 120px;
+    color: wheat;
+    margin-right: 10px;
+    border-color: beige;
+    border-radius: 10%;
+    font-size: 15px;
+    text-align: left;
+}
