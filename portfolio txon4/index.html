@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="favicon" href="favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Allura&family=Cookie&family=Corinthia&family=Courgette&family=Dancing+Script&family=Italianno&family=Kenia&family=Lobster&family=Open+Sans&family=Play&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5848d774a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="cont">
+            <nav>
+                <img class="a" src="kr.png" alt="logo">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="\register.html">Hobbies</a></li>
+                    <li> <a href="#">Contact </a></li>
+                </ul>
+            </nav>
+            <div class="headtext">
+                <img class="k" src="k.jpeg" alt="">
+                <h1>Hi! I'm Krisha.</h1>
+                <p class="port">Welcome to my portfolio.</p>
+                <p class="port">I am an aspiring software engineer.</p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br><br>
+    <hr>
+    <div class="about">
+        <div class="cont">
+            <div class="row">
+                <div class="col1">
+                    <img class="dan" src="dan.JPG" alt="">
+                </div>
+                <div class="col2">
+                    <h2>About Me</h2>
+                    <p>I am Krisha elle. I am an engineering student currently pursuring my third year from I2IT. I am
+                        realy interested
+                         in becoming a full stack developer. My hobbies are singing, dancing. I play Harmonium, chess to.
+                    </p>
+                    <div class="tabtile">
+                        <p class="tablinks activelink " onclick="opentab('skills')">hobbies</p>
+                        <p class="tablinks" onclick="opentab('experience')">experience</p>
+                        <p class="tablinks" onclick="opentab('education')">education</p>
+                    </div>
+                    <img class="sing" src="sing.jpg" alt="">
+                    <div class="tancontents activetab" id="skills">
+                        <ul>
+                            <li><span>Singing</span><br>Visharad Pratham</li>
+                            <li><span>Dancing</span><br>Madhyama purna</li>
+                            <li><span>Playing Harmonium</span><br>Madhyama pratham</li>
+                            <li><span>Chess</span><br>Runner up in inter school</li>
+                        </ul>
+                    </div>
+                    <div class="tancontents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br> Txon</li>
+
+                        </ul>
+                    </div>
+                    <div class="tancontents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>JB vachha</li>
+                            <li><span>2020</span><br> BSJC</li>
+                            <li><span>2021-2024</span><br> I2it</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2 class="skill">My Skills.</h2>
+        <div class="skill-row">
+            <img class="co" src="cpp.png" alt="comp">
+            <h3>Cpp</h3>
+            <p class="le">I am currently learning javascript and react.I want to learn backend and many other tech
+                orirnted skills.</p>
+        </div>
+        <div class="skill-row">
+            <img class="cors" src="py.jfif" alt="chili">
+            <h3>Python</h3>
+            <p>I am familiar with baasics of python.</p>
+        </div>
+        <div class="skill-row">
+            <img class="cor" src="html.jpg" alt="chili">
+            <h3>Front end</h3>
+            <p>I am learning html,css js .I am also learning reactjs..</p>
+        </div>
+    </div>
+    <hr>
+    <div class="contact">
+        <div class="cont">
+            <div class="row">
+
+                <div class="contleft">
+                    <h2 class="contacth">Contact Me</h2>
+                    <p><i class="fa-solid fa-envelope"></i>krisharelle@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7718990863</p>
+                    <div class="social">
+                        <a class="footer-link" href="https://www.linkedin.com/"><i
+                                class="fa-brands fa-linkedin"></i>LinkedIn</a>
+
+                        <a class="footer-link" href="https://www.appbrewery.co/"><i
+                                class="fa-brands fa-instagram"></i>Instagram</a>
+                        <a class="footer-link" href="https://www.appbrewery.co/"><i
+                                class="fa-brands fa-youtube"></i>Youtube</a>
+                        <p class="end">© Krisha elle.</p>
+
+
+                    </div>
+                    <a href="cv.png" download class="btn">Download cv</a>
+                </div>
+                <div class="contright">
+                    <form action="">
+                        <input type="text" name="fname" id="name" placeholder="Enter first name">
+                        <input type="email" name="email" id="name" placeholder="Enter email">
+                        <textarea name="Message" id="" rows="6" placeholder="Mesaage"></textarea>
+                        <button type="submit" class="btn1">Submit</button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
